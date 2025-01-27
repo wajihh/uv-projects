@@ -1,0 +1,1 @@
+print("This is my first uv project as a python developer")

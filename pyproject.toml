@@ -1,0 +1,7 @@
+[project]
+name = "hello-uv-project"
+version = "0.1.0"
+description = "AI201 Assignment No 11"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
