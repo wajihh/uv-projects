@@ -1,0 +1,8 @@
+---
+description: Some Good Rules
+globs: 
+---
+When working in Python always use UV as package manager and ensure eslint rules are applied.
+- If user adds "bypass" keyword we can skip them.
+- When saying "lint" or @lint  always ensure the codebase is linted and follow best practices.
+[calculator.py](mdc:src/calc/calculator.py) This is our calculator - use it for all llm math tool stuff.

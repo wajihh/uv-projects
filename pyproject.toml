@@ -1,0 +1,27 @@
+[project]
+name = "calc"
+version = "0.1.0"
+description = "A simple calculator package with comprehensive testing"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Junaid", email = "mr.junaidshaukat@gmail.com" }
+]
+requires-python = ">=3.7"
+dependencies = [
+    "pytest>=7.0.0"
+]
+
+[project.scripts]
+calc = "calc:main"
+test = "pytest:main"
+my_calc = "calc:my_calc"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+testpaths = ["src/calc"]
+python_files = ["test_*.py"]
+addopts = "-p no:asyncio"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
