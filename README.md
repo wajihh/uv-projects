@@ -1,2 +1,7 @@
 # uv-projects
- learning uv
+
+Learning uv
+
+## Projects
+
+- calc_proj: A simple calculator implementation
