@@ -2,6 +2,103 @@
 
 A powerful Python-based scientific calculator with support for basic arithmetic, trigonometry, logarithms, statistics, and number base conversions.
 
+## Project Development with Cursor IDE
+
+This project was developed using Cursor IDE, a modern AI-powered code editor. Here's how you can develop a similar project using Cursor:
+
+### Setting Up Cursor
+
+1. **Install Cursor IDE**
+   - Download Cursor from [cursor.so](https://cursor.so)
+   - Install and launch the IDE
+   - Cursor comes with built-in AI capabilities powered by Claude
+
+### Project Development Workflow
+
+1. **Project Initialization**
+   ```bash
+   # Create project directory
+   mkdir calculator
+   cd calculator
+   
+   # Initialize Python project structure
+   mkdir -p src/calc
+   touch src/calc/__init__.py
+   touch src/calc/calculator.py
+   ```
+
+2. **Using Cursor's AI Features**
+   - **Code Generation**: Use AI to generate boilerplate code
+     - Type `/` to activate AI commands
+     - Describe what you want to implement
+     - AI will generate the code structure
+
+   - **Code Enhancement**:
+     - Select code and press `Cmd/Ctrl + K` to modify/enhance it
+     - Ask AI to add features, fix bugs, or improve documentation
+     - AI understands context and maintains code consistency
+
+   - **Documentation**:
+     - Ask AI to generate docstrings and comments
+     - Request README updates and documentation improvements
+     - AI follows Python documentation best practices
+
+3. **Project Structure Created by Cursor**
+   ```
+   calculator/
+   ├── src/
+   │   └── calc/
+   │       ├── __init__.py
+   │       └── calculator.py
+   ├── tests/
+   │   └── test_calculator.py
+   ├── README.md
+   ├── requirements.txt
+   └── pyproject.toml
+   ```
+
+4. **Development Steps in Cursor**
+   1. Created basic calculator class with arithmetic operations
+   2. Added scientific functions (trigonometry, logarithms)
+   3. Implemented memory operations and constants
+   4. Added number base conversions
+   5. Integrated statistical functions
+   6. Enhanced error handling
+   7. Generated comprehensive documentation
+
+5. **Best Practices with Cursor**
+   - Use type hints for better code completion
+   - Follow PEP 8 style guide
+   - Write comprehensive docstrings
+   - Implement proper error handling
+   - Create modular and maintainable code
+
+6. **Version Control Integration**
+   - Cursor integrates with Git
+   - View diffs and make commits
+   - Handle merge conflicts
+   - Push changes to remote repositories
+
+### Tips for Using Cursor
+
+1. **AI Commands**
+   - `/fix` - Fix code issues
+   - `/test` - Generate unit tests
+   - `/doc` - Generate documentation
+   - `/explain` - Get code explanations
+
+2. **Keyboard Shortcuts**
+   - `Cmd/Ctrl + K` - AI chat
+   - `Cmd/Ctrl + P` - Quick file navigation
+   - `Cmd/Ctrl + Shift + P` - Command palette
+
+3. **AI-Powered Features**
+   - Code completion
+   - Error detection
+   - Refactoring suggestions
+   - Documentation generation
+   - Test case creation
+
 ## Features
 
 - Basic arithmetic operations (add, subtract, multiply, divide)
