@@ -13,6 +13,66 @@ A powerful Python-based scientific calculator with support for basic arithmetic,
 - Memory functions
 - Angle mode switching (degrees/radians)
 
+## GitHub Repository Setup
+
+This project is hosted on GitHub. Here's how it was set up:
+
+1. **Initialize Git Repository**
+```bash
+# Initialize git in the project directory
+git init
+```
+
+2. **Create .gitignore**
+Created a `.gitignore` file with Python-specific exclusions:
+```bash
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+```
+
+3. **Add and Commit Files**
+```bash
+# Stage all files
+git add .
+
+# Create initial commit
+git commit -m "Initial commit: Advanced Scientific Calculator"
+```
+
+4. **Create and Switch to Feature Branch**
+```bash
+# Create and switch to new branch
+git checkout -b calculator
+```
+
+5. **Connect to Remote Repository**
+```bash
+# Add remote repository
+git remote add origin https://github.com/wajihh/uv-projects.git
+
+# Push to GitHub
+git push -u origin calculator
+```
+
+6. **Create Pull Request**
+- Visit: https://github.com/wajihh/uv-projects/pull/new/calculator
+- Create pull request to merge calculator branch into main
+
 ## Installation
 
 1. Clone the repository:
