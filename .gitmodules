@@ -1,0 +1,3 @@
+[submodule "project1"]
+	path = project1
+	url = https://github.com/wajihh/uv-projects.git
