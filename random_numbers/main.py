@@ -22,3 +22,16 @@ plt.xlabel('x')
 plt.ylabel('Probability Density')
 plt.grid(True)
 plt.show()
+# Generate 500 random numbers from normal distribution
+data = np.random.normal(0, 1, 500)
+
+# Create histogram
+plt.figure(figsize=(8, 6))
+plt.hist(data, bins=30, density=True, alpha=0.7, color='skyblue')
+plt.plot(x, y, 'r-', lw=2, label='PDF')
+plt.title('Histogram of 500 Random Numbers\nNormal Distribution')
+plt.xlabel('Value')
+plt.ylabel('Density')
+plt.grid(True)
+plt.legend()
+plt.show()
