@@ -1,0 +1,19 @@
+version = 1
+revision = 1
+requires-python = ">=3.11"
+
+[manifest]
+members = [
+    "guess-my-number",
+    "hello-uv-project",
+]
+
+[[package]]
+name = "guess-my-number"
+version = "0.1.0"
+source = { virtual = "guess_my_number" }
+
+[[package]]
+name = "hello-uv-project"
+version = "0.1.0"
+source = { virtual = "." }
