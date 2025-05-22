@@ -1,0 +1,16 @@
+write_blog:
+  description: |
+    Write a comprehensive blog post about Pakistan's history. The blog should:
+    1. Cover major historical periods from ancient times to present
+    2. Include key events, figures, and cultural developments
+    3. Be organized into {section_count} well-structured sections
+    4. Be engaging and accessible to a general audience
+    5. Include interesting facts and cultural context
+    6. Maintain historical accuracy while being engaging
+    
+    The blog should flow naturally between sections and provide a cohesive narrative of Pakistan's rich history.
+  expected_output: |
+    A well-structured blog post about Pakistan's history, divided into {section_count} sections.
+    Each section should cover a distinct period or aspect of Pakistan's history, with smooth transitions between sections.
+    The blog should be informative, engaging, and accessible to readers with varying levels of historical knowledge.
+  agent: history_writer 
