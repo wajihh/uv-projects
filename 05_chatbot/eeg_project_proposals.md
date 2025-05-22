@@ -4,7 +4,7 @@ Date: 2025-05-22 11:24:39
 
 ## You
 
-suggest Ml and DL portfolio projects to show case multidimensional signal processing[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[3~[3~
+suggest Ml and DL portfolio projects to show case multidimensional signal processing
 
 ## Assistant
 
