@@ -11,7 +11,7 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 # Define Agents
 researcher = Agent(
     role='Historical Researcher',
-    goal='Investigate and validate historical facts about the Terracotta Warriors',
+    goal='Investigate and validate historical facts about the Chinese Warriors',
     backstory="""A meticulous historian specializing in ancient Chinese archaeology 
     and Qin Dynasty artifacts. You have access to academic databases and historical records.""",
     verbose=True,
@@ -65,8 +65,8 @@ essay_crew = Crew(
 # Execute Crew
 result = essay_crew.kickoff()
 
-# Save Output (simplified)
+# Save Output
 with open("terracotta_warriors_essay.md", "w", encoding="utf-8") as f:
-    f.write(result)  # Direct string write
+    f.write(str(result))  # Convert CrewOutput to string
 
 print("Essay generated successfully!")
